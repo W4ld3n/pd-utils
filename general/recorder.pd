@@ -1,0 +1,41 @@
+#N canvas 669 196 450 300 10;
+#X msg 209 101 open rec.wav;
+#X obj 222 205 writesf~ 2;
+#X msg 263 145 start;
+#X msg 323 142 stop;
+#X obj 25 102 bng 15 250 50 0 empty empty Start 17 7 0 10 -262144 -1
+-1;
+#X obj 25 122 bng 15 250 50 0 empty empty Stop 17 7 0 10 -262144 -1
+-1;
+#X obj 205 57 loadbang;
+#X obj 11 13 cnv 15 70 15 empty empty Recorder 5 7 0 14 -233017 -66577
+0;
+#X msg 25 191 0;
+#X msg 76 198 1;
+#X obj 87 46 bng 15 250 50 0 empty empty Recording 17 7 0 10 -262144
+-1 -1;
+#X obj 175 13 inlet~;
+#X obj 328 19 inlet~;
+#X obj 155 257 outlet~;
+#X obj 315 257 outlet~;
+#X obj 46 242 metro 500;
+#X obj 79 154 t b b;
+#X connect 0 0 1 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 4 0 0 0;
+#X connect 4 0 16 0;
+#X connect 5 0 8 0;
+#X connect 6 0 5 0;
+#X connect 6 0 0 0;
+#X connect 8 0 15 0;
+#X connect 9 0 15 0;
+#X connect 11 0 1 0;
+#X connect 11 0 13 0;
+#X connect 12 0 1 1;
+#X connect 12 0 14 0;
+#X connect 15 0 10 0;
+#X connect 16 0 9 0;
+#X connect 16 0 2 0;
+#X connect 16 1 0 0;
+#X coords 0 -1 1 1 150 150 2 10 10;

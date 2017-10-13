@@ -1,0 +1,28 @@
+#N canvas 631 255 450 300 10;
+#X obj 262 20 inlet;
+#X obj 197 200 outlet;
+#X obj 335 20 inlet;
+#X obj 288 54 sel 1;
+#X text 256 5 in-channel;
+#X text 334 4 filter-channel;
+#X msg 288 82 1;
+#X floatatom 320 84 2 0 0 0 - - -, f 2;
+#X obj 320 103 t b;
+#X msg 320 128 0;
+#X obj 197 160 spigot 1;
+#X obj 197 19 inlet;
+#X text 193 4 Value;
+#X obj 101 102 cnv 15 34 31 empty empty empty 20 12 0 14 -162280 -66577
+0;
+#X text 105 111 C-F;
+#X connect 0 0 3 0;
+#X connect 2 0 3 1;
+#X connect 3 0 6 0;
+#X connect 3 1 7 0;
+#X connect 6 0 10 1;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 1;
+#X connect 10 0 1 0;
+#X connect 11 0 10 0;
+#X coords 0 -1 1 1 35 35 2 100 100;

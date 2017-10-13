@@ -1,0 +1,33 @@
+#N canvas 1366 53 1920 1027 10;
+#X obj 100 101 cnv 15 750 247 empty empty Arduino_Midi 20 12 0 14 -66577
+-1 0;
+#X obj 129 187 hsl 128 15 0 127 0 0 a empty empty -2 -8 0 10 -4160
+-1 -1 4200 1;
+#X obj 289 187 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -4034
+-1 -1 0 1;
+#X obj 449 187 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -257985
+-1 -1 0 1;
+#X obj 609 187 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -258113
+-1 -1 0 1;
+#X obj 129 219 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -4160
+-1 -1 9800 1;
+#X obj 289 219 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -4034
+-1 -1 0 1;
+#X obj 449 219 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -257985
+-1 -1 0 1;
+#X obj 609 219 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -258113
+-1 -1 0 1;
+#X obj 129 249 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -4160
+-1 -1 0 1;
+#X obj 289 249 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -4034
+-1 -1 0 1;
+#X obj 449 249 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -257985
+-1 -1 0 1;
+#X obj 609 249 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -258113
+-1 -1 0 1;
+#X obj 793 137 vsl 15 175 0 127 0 0 empty empty empty 0 -9 0 10 -1
+-262144 -262144 0 1;
+#X obj 1287 295 outlet;
+#X floatatom 1287 260 5 0 0 0 - a -, f 5;
+#X connect 15 0 14 0;
+#X coords 0 -1 1 1 750 250 1 100 100;
